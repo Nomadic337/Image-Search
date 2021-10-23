@@ -1,0 +1,39 @@
+* {
+    /* margin: 0; */
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    width: 100vw;
+}
+
+#input {
+    margin-bottom: 30px;
+    height: 30px;
+    width: 350px;
+    padding-left: 10px;
+}
+
+#image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin: auto;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+
+}
+
+#image-gallery .imgwrap img { 
+    /* flex-grow: 1; */
+    padding-bottom: 25px;
+    /* height: 250px; */
+    width: 100%;
+    height: auto;
+}
+
+.imgwrap {
+    width: 32%;
+    /* margin: auto; */
+}
